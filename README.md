@@ -1,2 +1,4 @@
 # Cyber-Security
 Anomaly Detection and Defensive Mechanisms for Preventing Model Extraction Attacks in Machine Learning Systems
+
+Machine learning systems deployed in real-time environments face critical vulnerabilities from model extraction attacks, where adversaries aim to replicate proprietary models by submitting systematically crafted queries. This work introduces an integrated framework combining anomaly detection through autoencoders and Principal Component Analysis (PCA) with defensive mechanisms such as noise injection and query throttling. Using the UCI Adult Dataset, our solution demonstrates significant improvements in recall and precision metrics, achieving a robust balance between security and usability. Comprehensive evaluations reveal the system's efficacy in mitigating extraction threats while maintaining service quality for legitimate users.
